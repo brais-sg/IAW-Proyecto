@@ -54,12 +54,13 @@ if(mysqli_connect_errno()){
         }
     }
 
-    echo "<input type=\"button\" onclick=\"location.href='menu_admin.php'\" value=\"Volver al menú\">";
+    echo '
+        <form action="menu_admin.php" method="get" enctype="multipart/form-data" style="display: inline-block;">
+            <input type="submit" value="Volver al menú">
+        </form>
+        ';
 
     mysqli_close($link);
 }   
-
-
-
 
 ?>

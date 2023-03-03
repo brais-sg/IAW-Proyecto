@@ -12,7 +12,6 @@ if(!isset($_SESSION["user"])){
 echo "<div align=\"right\">";
 echo "Hola <b>".$_SESSION["user"]."</b> [Como administrador]";
 echo " <a href=\"salir.php\">Pechar sesión</a>";
-echo " <a href=\"modificar.php\">Modificar os meus datos</a>";
 echo "</div>";
 echo "<hr>";
 
@@ -25,8 +24,8 @@ echo '
                 Cantidade: <input type="text" name="cantidade" value=""><br>
                 <br>
                 
-                <input type="submit" value="Modificar datos">
-                <a href="menu.php">Cancelar</a>
+                <input type="submit" value="Eliminar">
+                <a href="menu_admin.php">Volver al menú</a>
             </form>
     ';
 

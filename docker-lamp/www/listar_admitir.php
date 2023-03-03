@@ -68,7 +68,12 @@ if(mysqli_connect_errno()){
         echo "</table>";
         // Admitir novos usuarios, e atrás
         echo "<br>";
-        echo "<input type=\"button\" onclick=\"location.href='admitir_todo.php'\" value=\"Admitir todo\"> ";
+        // echo "<input type=\"button\" onclick=\"location.href='admitir_todo.php'\" value=\"Admitir todo\"> ";
+        echo '
+        <form action="admitir_todo.php" method="get" enctype="multipart/form-data" style="display: inline-block;">
+            <input type="submit" value="Admitir todo">
+        </form>
+        ';
 
         echo '
         <form action="menu_admin.php" method="get" enctype="multipart/form-data" style="display: inline-block;">
