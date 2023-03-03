@@ -37,9 +37,19 @@ if(mysqli_connect_errno()){
         while($value = mysqli_fetch_array($query, MYSQLI_ASSOC)){
             echo "<tr>";
 
-            foreach($value as $k => $v){
-                echo "<td style=\"border: 1px solid black;\">$v</td>";
-            }
+            $modelo = $value["modelo"];
+            $cantidade = $value["cantidade"];
+            $descricion = $value["descricion"];
+            $marca = $value["marca"];
+            $prezo = $value["prezo"];
+            $foto = $value["foto"];
+
+            echo "<td style=\"border: 1px solid black;\">$modelo</td>";
+            echo "<td style=\"border: 1px solid black;\">$cantidade</td>";
+            echo "<td style=\"border: 1px solid black;\">$descricion</td>";
+            echo "<td style=\"border: 1px solid black;\">$marca</td>";
+            echo "<td style=\"border: 1px solid black;\">$prezo</td>";
+            echo "<td style=\"border: 1px solid black;\"><img src=\"img/$foto\"></td>";
 
             echo "</tr>";
             $a_id++;

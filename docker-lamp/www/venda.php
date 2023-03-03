@@ -87,8 +87,6 @@ if(mysqli_connect_errno()){
 
 
         echo "Has comprado un vehículo correctamente!<br>";
-        echo "Pulsa <a href=\"menu.php\">aquí</a> para volver o menú principal<br><br>";
-
         // echo "Tu ticket es el siguiente:<br><br><br>";
         // highlight_file($nombre_ticket);
 

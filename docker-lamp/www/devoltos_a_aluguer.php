@@ -15,8 +15,6 @@ echo " <a href=\"salir.php\">Pechar sesión</a>";
 echo "</div>";
 echo "<hr>";
 
-echo "<h1>Al toque, mi rey</h1>";
-
 
 $link = mysqli_connect("db", "root", "test", "frota");
 if(mysqli_connect_errno()){
@@ -55,6 +53,8 @@ if(mysqli_connect_errno()){
         }
     }
 
+
+    echo "<h2>Operación realizada con éxito</h2>";
 
     echo "<br>Pulsa <a href='menu_admin.php'>aquí</a> para volver al menú principal\n";
 

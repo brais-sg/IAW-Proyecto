@@ -46,7 +46,7 @@ if(mysqli_connect_errno()){
                 <br>
 
                 <input type="submit" value="Modificar datos">
-                <input type="button" onclick="history.back()" value="Cancelar">
+                <a href="menu.php">Cancelar</a>
             </form>
         ';
     }

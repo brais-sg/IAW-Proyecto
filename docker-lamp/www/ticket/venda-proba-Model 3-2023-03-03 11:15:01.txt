@@ -1,0 +1,15 @@
+TICKET DE COMPRA PARA Model 3:
+
+ Fecha de compra: 2023-03-03 11:15:01
+ Modelo: Model 3
+ Cantidade: 1
+ Descrición: Tesla Model 3
+ Marca: Tesla
+ Prezo: 74999
+
+Datos del comprador:
+ Nombre: proba
+ Dirección: hola
+ Telefono: 1
+ NIF: hola
+ Email: matias

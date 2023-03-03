@@ -16,6 +16,7 @@ echo " <a href=\"modificar.php\">Modificar os meus datos</a>";
 echo "</div>";
 echo "<hr>";
 
+/*
 // Mostramos opciones de vehículos en alquiler o venta
 echo "<div class=\'menu\'>\n";
 echo "<h2>Menú principal</h2>";
@@ -29,12 +30,17 @@ echo "<input type=\"button\" onclick=\"location.href='lista_venda.php'\" value=\
 echo "<br><br>";
 echo "<input type=\"button\" onclick=\"location.href='devolver.php'\" value=\"Devolver un vehículo alugado\">";
 echo "</div>\n";
-
+*/
 
 // Menu pero con submit
 echo "<div class='menu'>\n";
 echo "<h2>Menú principal</h2>";
-echo "";
+echo "<form action='sololista_aluguer.php' method='get'><input type='submit' value='Listar vehículos en aluguer'></form>";
+echo "<form action='sololista_venda.php' method='get'><input type='submit' value='Listar vehículos en venda'></form>";
+echo "<form action='lista_aluguer.php' method='get'><input type='submit' value='Mostrar vehículos en aluguer'></form>";
+echo "<form action='lista_venda.php' method='get'><input type='submit' value='Mostrar vehículos en venda'></form>";
+echo "<form action='devolver.php' method='get'><input type='submit' value='Devolver un vehículo alugado'></form>";
+echo "</div>";
 
 
 
