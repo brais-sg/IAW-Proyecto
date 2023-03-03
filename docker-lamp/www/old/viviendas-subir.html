@@ -1,0 +1,14 @@
+<html lang="es">
+<meta charset="UTF-8">
+<head>
+    <title>Subir archivo a PHP (Viviendas)</title>
+</head>
+<body>
+    <form action="procesador-viviendas.php" method="post" enctype="multipart/form-data" style="border: 2px dashed black;">
+        <h2>Selecciona un archivo con las viviendas para subir:</h2>
+        <p>Formato del archivo: Tipo;Zona;Dormitorios;Precio;Tamaño;Extras</p>
+        <input type="file" name="to_upload" id="to_upload">
+        <input type="submit" value="Subir archivo" name="submit">
+    </form>
+</body>
+</html>

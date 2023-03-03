@@ -1,0 +1,36 @@
+<html lang="es">
+<meta charset="UTF-8">
+<head>
+    <title>Proxecto PHP - Benvido - Iniciar sesión</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <form action="sesion.php" method="post" enctype="multipart/form-data" style="border: 1px solid black;">
+        <p>Introduce as tuas credenciais de aceso:</p>
+        Usuario: <input type="text" name="user" id="user">
+        Contrasinal: <input type="password" name="user_pwd">
+    
+        <input type="submit" value="Iniciar" style="position: absolute;" id="nope">
+        <!-- <input type="button" onclick="alert('Mateo no')" value="Iniciar"> -->
+        <input type="button" onclick="location.href='registro.html'" value="Registro" style="margin-left: 60px">
+        <br><br>
+    </form>
+
+    <!--
+    <script>
+    $(function() {
+        $("#nope").on({
+          mouseover: function() {
+            $(this).css({
+              left: (Math.random() * 500) + "px",
+              top: (Math.random() * 750) + "px",
+            });
+          }
+        });
+      });
+    </script>
+  -->
+
+
+</body>
+</html>

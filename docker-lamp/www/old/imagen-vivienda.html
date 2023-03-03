@@ -1,0 +1,20 @@
+<html lang="es">
+<meta charset="UTF-8">
+<head>
+    <title>Insertar imagen vivienda(Viviendas)</title>
+</head>
+<body>
+    <form action="creavivienda.php" method="post" enctype="multipart/form-data" style="border: 4px dotted black;">
+        <h2>Insertar una vivienda en la base de datos</h2>
+        Nombre: <input type="text" name="nombre" value=""><br>
+        Zona: <input type="text" name="zona" value=""><br>
+        Dormitorios: <input type="text" name="dormitorios" value=""><br>
+        Precio: <input type="text" name="precio" value=""><br>
+        Tamaño: <input type="text" name="tamano" value=""><br>
+        Extras: <input type="text" name="extras" value=""><br>
+
+        <input type="file" name="foto" id="foto">
+        <input type="submit" value="Subir archivo" name="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+O nome de usuario é: Probando a modificar la entrada desde JavasScript
+O primeiro apelido do usuario é: 
+O segundo apelido do usuario é: 
+O contrasinal do usuario é: 
+O usuario non desexa recibir información
