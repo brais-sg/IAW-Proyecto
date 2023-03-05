@@ -103,6 +103,7 @@ if(mysqli_connect_errno()){
     }
     */
 
+    echo "<br>Pulsa <a href='menu.php'>aquí</a> para volver al menú principal\n";
     mysqli_close($link);
 }
 

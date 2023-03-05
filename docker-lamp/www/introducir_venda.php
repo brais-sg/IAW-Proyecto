@@ -11,7 +11,6 @@ if(!isset($_SESSION["user"])){
 echo "<div align=\"right\">";
 echo "Hola <b>".$_SESSION["user"]."</b> [Como administrador]";
 echo " <a href=\"salir.php\">Pechar sesión</a>";
-echo " <a href=\"modificar.php\">Modificar os meus datos</a>";
 echo "</div>";
 echo "<hr>";
 
