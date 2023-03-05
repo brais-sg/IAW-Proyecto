@@ -5,7 +5,6 @@
     </head>
     <body>
 <?php
-include 'fw/mateont.php';
 
 // Función para comprobar si un campo existe y NO es nulo.
 // Retorna true si el campo es nulo o NO existe, false de lo contrario
@@ -16,10 +15,6 @@ function check_empty($value){
     return false;
 }
 
-if(detectar_mateo()){
-    echo "Fuera de aquí Mateo<br>";
-    die();
-}
 
 $link = mysqli_connect("db", "root", "test", "frota");
 if(mysqli_connect_errno()){

@@ -1,6 +1,5 @@
 <?php
 
-include 'fw/mateont.php';
 
 function check_empty($value){
     if(!isset($value)) return true;
@@ -16,10 +15,6 @@ if(check_empty($_REQUEST["user"]) || check_empty($_REQUEST["user_pwd"])){
     die();
 }
 
-if(detectar_mateo()){
-    echo "Fuera de aquí Mateo<br>";
-    die();
-}
 
 $link = mysqli_connect("db", "root", "test", "frota");
 if(mysqli_connect_errno()){
