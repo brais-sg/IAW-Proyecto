@@ -16,7 +16,7 @@ echo "<h2>Modificar os meus datos</h2>";
 
 // Iniciar comunicación con la base de datos, obtenemos todos los datos y los mostramos en el respectivo campo de texto
 // Submit actualizará las modificaciones
-$link = mysqli_connect("db", "root", "test", "frota");
+$link = mysqli_connect("localhost", "root", "", "frota");
 if(mysqli_connect_errno()){
     echo "Ha fallado la conexión a la base de datos";
 } else {
@@ -42,7 +42,7 @@ if(mysqli_connect_errno()){
                 Direccion: <input type="text" name="user_address" value=""><br>
                 Telefono: <input type="text" name="user_phone" value=""><br>
                 NIF: <input type="text" name="user_nif" value=""><br>
-                Email: <input type="email" name="user_email" value=""><br>
+                Email: <input type="text" name="user_email" value=""><br>
                 <br>
 
                 <input type="submit" value="Modificar datos">

@@ -16,7 +16,7 @@ function check_empty($value){
 }
 
 
-$link = mysqli_connect("db", "root", "test", "frota");
+$link = mysqli_connect("localhost", "root", "", "frota");
 if(mysqli_connect_errno()){
     echo "Ha fallado la conexión a la base de datos";
 } else {

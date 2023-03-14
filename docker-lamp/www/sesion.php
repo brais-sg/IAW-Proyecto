@@ -16,7 +16,7 @@ if(check_empty($_REQUEST["user"]) || check_empty($_REQUEST["user_pwd"])){
 }
 
 
-$link = mysqli_connect("db", "root", "test", "frota");
+$link = mysqli_connect("localhost", "root", "", "frota");
 if(mysqli_connect_errno()){
     echo "Ha fallado la conexión a la base de datos";
 } else {

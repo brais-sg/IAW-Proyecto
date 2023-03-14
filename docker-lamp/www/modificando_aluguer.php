@@ -15,7 +15,7 @@ echo " <a href=\"salir.php\">Pechar sesión</a>";
 echo "</div>";
 echo "<hr>";
 
-$link = mysqli_connect("db", "root", "test", "frota");
+$link = mysqli_connect("localhost", "root", "", "frota");
 if(mysqli_connect_errno()){
     echo "Ha fallado la conexión a la base de datos";
 } else {
